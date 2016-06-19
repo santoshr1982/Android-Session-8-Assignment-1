@@ -1,0 +1,22 @@
+a. What is Shared Preferences?
+
+Ans: Shared preferences can be used for saving certain details such 
+     as UserId, Name, Password, User defined settings etc. These
+     details can be stored in two format they are as follows:
+	
+	1. Default format.
+	2. Custome file with private mode.
+
+     Default Format: In this type the shared values are stored in a
+	             default file with the pacakage name.
+
+     Custome file with private mode: In this type the shared preferences
+	              are stored with a specific name and in the private
+		      mode and can be used to store the shared prefrences
+                      of a perticular app only.
+
+b. What values can be  saved in SharedPreferences?
+
+Ans: Any type of values connected to user details App settings with Key
+     and value can be stored in a common file or in a app specific file.
+     the values that can be stored are String, Integer, Boolean, Long etc.
